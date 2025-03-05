@@ -10,7 +10,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git 'https://github.com/teemvat/TripCalculator.git'
+                git branch, url:'https://github.com/teemvat/TripCalculator.git'
             }
         }
         stage('Run Tests') {
