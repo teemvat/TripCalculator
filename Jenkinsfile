@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        DOCKERHUB_CREDENTIALS_ID = 'dockerhub-credentials'
+        DOCKERHUB_CREDENTIALS_ID = '3f0f2df0-7e52-417c-88d4-cce8440724f3'
         DOCKERHUB_REPO = 'teemvat/tripcalculator'
         DOCKER_IMAGE_TAG = 'ver2'
     }
