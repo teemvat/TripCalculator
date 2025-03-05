@@ -85,7 +85,7 @@
     </dependencies>
 
     <build>
-        <finalName>TripCalculator</finalName>
+        <finalName>tripcalculator</finalName>
         <resources>
             <resource>
                 <directory>src/main/resources</directory>
@@ -108,7 +108,7 @@
                 <configuration>
                     <archive>
                         <manifest>
-                            <mainClass>Main</mainClass>
+                            <mainClass>TripCostCalculator</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
